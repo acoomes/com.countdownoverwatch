@@ -16,9 +16,10 @@ div {
   left: 15%;
   right: 15%;
 }
-.welcome {
-  top: 50%;
+#welcome {
+  top: 20%;
 }
-.copyright {
-  bottom: 2%;
+#timer {
+  top: 40%;
+  font-size: 32px;
 }
