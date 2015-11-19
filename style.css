@@ -12,14 +12,20 @@ h2 {
 }
 div {
   text-align: center;
-  position: absolute;
-  left: 15%;
-  right: 15%;
+  position: relative;
+}
+.countdownTime {
+  text-align: inherit;
+  padding: 10px;
+  font-size: 36px;
 }
 #welcome {
   top: 20%;
 }
 #timer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
   top: 40%;
   font-size: 32px;
 }
