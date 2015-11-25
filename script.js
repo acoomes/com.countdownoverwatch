@@ -1,9 +1,3 @@
-/* Wait for the DOM to load, then run getCountdown every 0.5 seconds.
- */
-window.onload = function() {
-  setInterval(getCountdown, 500);
-}
-
 /* Subtract the current number of milliseconds (from epoch) from the number
  * of milliseconds as of June 21, 2016 (Overwatch release).
  */
@@ -18,7 +12,7 @@ var getMillis = function() {
  * Return the floored number of days.
  */
 var getDays = function() {
-  var days = getMillis() / (1000*60*60*24);
+  var days = getMillis() / (1000 * 60 * 60 * 24);
   return Math.floor(days);
 }
 
@@ -26,7 +20,7 @@ var getDays = function() {
  * Return the number of hours, rounded up to the nearest integer.
  */
 var getHrs = function() {
-  var hours = getMillis() / (1000*60*60);
+  var hours = getMillis() / (1000 * 60 * 60);
   return Math.ceil(hours % 24);
 }
 
@@ -35,7 +29,7 @@ var getHrs = function() {
  */
 
 var getMins = function() {
-  var minutes = getMillis() / (1000*60);
+  var minutes = getMillis() / (1000 * 60);
   return Math.floor(minutes % 60);
 }
 
@@ -54,4 +48,10 @@ var getCountdown = function() {
   document.getElementById("numHours").innerHTML = getHrs();
   document.getElementById("numMinutes").innerHTML = getMins();
   document.getElementById("numSeconds").innerHTML = getSecs();
+}
+
+/* Wait for the DOM to load, then run getCountdown every 0.5 seconds.
+ */
+window.onload = function() {
+  setInterval(getCountdown, 500);
 }
