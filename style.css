@@ -1,3 +1,9 @@
+body {
+  background-image: url(assets/ow_bg2.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  color: #eee;
+}
 p {
   font-family: helvetica, sans-serif;
   font-size: 10px;
