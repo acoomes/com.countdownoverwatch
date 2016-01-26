@@ -3,23 +3,20 @@ body {
   background-position: center;
   background-repeat: repeat;
   color: #eee;
+  font-family: 'Open Sans', sans-serif;
 }
 p {
-  font-family: helvetica, sans-serif;
   font-size: 10px;
 }
 h1 {
-  font-family: sans-serif;
   font-size: 36px;
 }
 h2 {
-  font-family: sans-serif;
   font-size: 24px;
 }
 div {
   text-align: center;
   position: relative;
-  font-family: sans-serif;
 }
 .countdownTime {
   text-align: inherit;
