@@ -1,19 +1,29 @@
+body {
+  background-image: url(assets/ow_bg2.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  color: #eee;
+  font-family: 'Open Sans', sans-serif;
+}
 p {
-  font-family: helvetica, sans-serif;
   font-size: 10px;
 }
 h1 {
-  font-family: sans-serif;
   font-size: 36px;
 }
 h2 {
-  font-family: sans-serif;
   font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #ffc70e;
 }
 div {
   text-align: center;
   position: relative;
-  font-family: sans-serif;
 }
 .countdownTime {
   text-align: inherit;
@@ -26,6 +36,12 @@ div {
 .number {
   font-size: 54px;
 }
+.purchaselink {
+  top: 40%;
+}
+.amazonlink {
+  font-style: italic;
+}
 #welcome {
   top: 18%;
 }
@@ -33,6 +49,6 @@ div {
   display: flex;
   text-align: center;
   justify-content: center;
-  top: 32%;
+  top: 30%;
   font-size: 24px;
 }
