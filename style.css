@@ -14,6 +14,13 @@ h1 {
 h2 {
   font-size: 24px;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #ffc70e;
+}
 div {
   text-align: center;
   position: relative;
@@ -29,6 +36,12 @@ div {
 .number {
   font-size: 54px;
 }
+.purchaselink {
+  top: 40%;
+}
+.amazonlink {
+  font-style: italic;
+}
 #welcome {
   top: 18%;
 }
@@ -36,6 +49,6 @@ div {
   display: flex;
   text-align: center;
   justify-content: center;
-  top: 32%;
+  top: 30%;
   font-size: 24px;
 }
