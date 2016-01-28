@@ -3,7 +3,7 @@ body {
   background-position: center;
   background-repeat: repeat;
   color: #eee;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Futura', 'Open Sans', sans-serif;
 }
 p {
   font-size: 10px;
@@ -31,6 +31,7 @@ div {
   font-size: 22px;
 }
 .countdownTimeLabel {
+  color: #ffc70e;
   font-size: 22px;
 }
 .number {
@@ -43,12 +44,12 @@ div {
   font-style: italic;
 }
 #welcome {
-  top: 18%;
+  top: 16%;
 }
 #timer {
   display: flex;
   text-align: center;
   justify-content: center;
-  top: 30%;
+  top: 26%;
   font-size: 24px;
 }
