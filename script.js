@@ -3,7 +3,7 @@
  */
 var getMillis = function() {
   var now = new Date();
-  var launch = new Date(2016, 5, 21, 0, 0, 0);
+  var launch = new Date(2016, 4, 24, 0, 0, 0);
   var millis = launch.getTime() - now.getTime();
   return millis;
 }
